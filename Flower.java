@@ -41,8 +41,9 @@ public class Flower
     }
 
     /**
-     * Constructor for objects of class Flower
-     */
+     * alternative constructor for flower, without color col param
+     * colour set as blue instead so that it can work
+     
     public Flower(double x, double y, int size, int stem)
     {
         // initialise instance variables
@@ -57,6 +58,7 @@ public class Flower
         this.setLeft();
         this.setBottom();
     }
+    */
     
     /**
      * Set left
